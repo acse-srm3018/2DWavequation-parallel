@@ -1,0 +1,10 @@
+#!/bin/bash
+#rj nodes=1 queue=iclmsc priority=100 schema=multi.schema logdir=logs
+set -euo pipefail
+echo "Booting MPI JOB"
+#add an openmpi library to the environment
+module add openmpi/4.0.5-mlnx-gcc
+echo "Using these nodes:"
+echo ${SLURM_JOB_NODELIST}
+#running the binary
+mpirun -n $np -oversubscribe ConsoleApplication1
