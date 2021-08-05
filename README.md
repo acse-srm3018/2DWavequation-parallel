@@ -1,7 +1,7 @@
 # 1D Wave equation - Parallel programming using MPI
 * 1D Wave Equation Solver with MPI
 ## Overview
-This code solves using Finite difference method [https://en.wikipedia.org/wiki/Finite_difference]. The code is parallelized using MPI and domain decomposition. It was mostly written as my coursework for acse6 with MPI and C++.
+This code solves using Finite difference method [https://en.wikipedia.org/wiki/Finite_difference]. The code is parallelized using MPI and domain decomposition. It was mostly written with MPI and C++.
 
 ## Basic Information
 
