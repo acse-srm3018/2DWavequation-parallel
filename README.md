@@ -27,7 +27,7 @@ An overview of the files is provided below.
 The time it takes for the code, as measured using the dug HPC system, to execute (Different Number of grid points) relative to the number of processors used can be seen in the figure below. Note that the computational speedup from 2 to 4 processors is 1.9 and from 4 to 8 the speedup is 1.4 which is close Amdahl’s Law.
 
 ## Requirements
-1. only non-standard library required is =mpi.h=. 
+1. only non-standard library required is `mpi.h`. 
 2. Building program using `mpic++ coursework_parallel.cpp -o coursework_parallel`
 3. run `mpiexec -n 4 coursework_parallel`
 4. run in the following command in hpc `rjs mpi_Raha.job`
