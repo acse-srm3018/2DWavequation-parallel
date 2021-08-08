@@ -31,5 +31,5 @@ The time it takes for the code, as measured using the dug HPC system, to execute
 2. Building program using `mpic++ coursework_parallel.cpp -o coursework_parallel`
 3. run `mpiexec -n 4 coursework_parallel`
 4. run in the following command in hpc `rjs mpi_Raha.job`
-5. the output piped to a file (out) and plotted using the
+5. the output piped to a file (.out) and plotted using the
    postprocessing python code(which can be found as postprocess.ipynb
