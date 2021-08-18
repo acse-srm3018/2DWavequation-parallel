@@ -1,15 +1,13 @@
-# 1D Wave equation - Parallel programming using MPI
-* 1D Wave Equation Solver with MPI
+# 2D Wave equation - Parallel programming using MPI
+* 2D Wave Equation Solver with MPI
 ## Overview
-This code solves using Finite difference method [https://en.wikipedia.org/wiki/Finite_difference]. The code is parallelized using MPI and domain decomposition. It was mostly written with MPI and C++.
+This code solves using Finite difference method [https://en.wikipedia.org/wiki/Finite_difference]. The code is parallelized using MPI and domain decomposition techniques. It was mostly written with MPI and C++.
 
 ## Basic Information
 
 This project aims to solve 2-D wave equation using finite difference. 
 
 An overview of the files is provided below.
-
-
 - `report/` contains report in pdf format.
 - `log/` contains the output files from my HPC runs (*.o* files).
 - `images/` contains images and animation which used in report and also ipynb file for generating files.
