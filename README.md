@@ -16,7 +16,7 @@ An overview of the files is provided below.
 - `Serial_Wave_Equation.cpp` serial version code of solving 2D wave equation using finite difference using 1-D array.
 - `coursework_parallel.cpp` parallel version code of solving 2D wave equation using finite difference.
 - `post_processing.ipynb` jupyter notebook of postrprocessing.
-- `animation.gif` animation of wave equation solution
+- `animation.gif` animation of wave equation solution.
 - `LICENSE.txt` is the MIT license.
 - `README.md` contains basic information for the repository and detailed information for how to compile and reproduce the results.
 
